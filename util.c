@@ -15,3 +15,4 @@ die(const char *errstr, ...) {
 	exit(EXIT_FAILURE);
 }
 
+/* vim: set noet: */

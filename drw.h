@@ -67,3 +67,4 @@ void drw_text(Drw *drw, int x, int y, unsigned int w, unsigned int h, const char
 
 /* Map functions */
 void drw_map(Drw *drw, Window win, int x, int y, unsigned int w, unsigned int h);
+/* vim: set noet: */
