@@ -715,7 +715,7 @@ drawbar(Monitor *m) {
 	drw_text(drw, x, 0, w, bh, m->ltsymbol, 0);
 	x += w;
 	xx = x;
-	if(m == selmon) { /* status is only drawn on selected monitor */
+	if(NULL == m->next) { /* status is only drawn on last monitor */
 		w = TEXTW(stext);
 		x = m->ww - w;
 		if(x < xx) {
